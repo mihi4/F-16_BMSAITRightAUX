@@ -10,6 +10,7 @@
 - EPU FUEL Gauge
 - CABIN PRESS Gauge
 - ~~(LIQUID FUEL Gauge)~~
+- SIM1 Panel (??? 3 LEDs of MM5451 available)
 ## Pinmapping
 * PFD: 
   * Serial Display  
