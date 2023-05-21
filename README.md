@@ -1,7 +1,7 @@
-# Right Aux Arduino ~~Mega~~ Nano Controller
+# BMSAIT Right Aux Controller
+* Microcontroller: Arduino Nano
 
-One Nano to control:
-
+## Hardware controlled
 - PFD
 - CAUTION PANEL
 - COMPASS
