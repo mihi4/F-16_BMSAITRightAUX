@@ -26,11 +26,12 @@ unsigned long lu;   //last update
 
 Servodata servodata[] =
 {// pIN  p_ug  p_og  a_ug  a_og  last  lu
-	{6,   0,   180,   1,   65535,    0,   0}, 	// HYDPRESS A
-	{7,   0,   180,   1,   65535,    0,   0}, 	// HYDPRESS B
-	{8,   0,   180,   1,   65535,    0,   0},  	// FUEL QTY Fwd
+	{6,   180,   0,   1,   65535,    0,   0}, 	// HYDPRESS A
+	{7,   180,   0,   1,   65535,    0,   0}, 	// HYDPRESS B
+	/*{8,   0,   180,   1,   65535,    0,   0},  	// FUEL QTY Fwd
 	{9,   0,   180,   1,   65535,    0,   0}  	// FUEL QTY Aft
-    /*{A1,   0,   180,   0,   800,    0,   0},  // example speed indicator: {Servo on PIN=9, min arc =0, max arc=180, lowest possible value=0, highest value=800, past value=0, lastUpdate=0}
+    
+	{A1,   0,   180,   0,   800,    0,   0},  // example speed indicator: {Servo on PIN=9, min arc =0, max arc=180, lowest possible value=0, highest value=800, past value=0, lastUpdate=0}
 	{11,   0,   90,   0,   1,    0,   0},  // PNEU Flag
 	{12,   0,   180,   0,   65535,    0,   0},  // KIAS	
 	{13,   0,   180,   0,   20,    0,   0},  // mach
@@ -105,11 +106,6 @@ void UpdateServo(byte id)
 		newValue = tmpVal * 10;
 	} else {
 		newValue = atol(datenfeld[id].wert);
-	}
-	if (id == 6) {
-		char buff[12];
-		SendMessage(datenfeld[id].bezeichnung,1);
-		SendMessage(ltoa(newValue, buff, 10),1);
 	}
     if (servodata[datenfeld[id].target].last != newValue)
     {	  

@@ -14,7 +14,7 @@
   //#define StepperBYJ        //drive stepper motor 28BYJ-48
   //#define StepperX27        //drive stepper motor X27.168
   //#define CompassX27        //drive a compass with a Xxx.xxx -class stepper motor
-  #define StepperVID        //drive multiple stepper motors X25.168 with a VID66-06 controller
+  //#define StepperVID        //drive multiple stepper motors X25.168 with a VID66-06 controller
   //#define MotorPoti         //motor-driven poti control
   //#define OLED              //display data on an OLED display
   //#define SpeedBrake        //Enable display of the SpeedBrake indicator on an 128x64 OLED display (DEDunino)
@@ -74,11 +74,11 @@
 	  // Servos
 	  ,{"HydA",   "0281",  'i',  40,    0,   0,   0,   0,  0,   0}	// HYD PRESSURE A
 	  ,{"HydB",   "0291",  'i',  40,    1,   0,   0,   0,  0,   0}	// HYD PRESSURE A
-      ,{"FWDFL",    "0531",  'i',  40,    2,   0,   0,   0,  0,   0}   // FUEL QTY FWD
+     /* ,{"FWDFL",    "0531",  'i',  40,    2,   0,   0,   0,  0,   0}   // FUEL QTY FWD
 	  ,{"AFTFL",    "0481",  'i',  40,    3,   0,   0,   0,  0,   0}	// FUEL QTY AFT
 	  // AX1201728SG x27 steppers
 	  ,{"EpuFl",    "0251",  'i',  52,    0,   0,   0,   0,  0,   0}	// EPU FUEL
 	  ,{"CabPs",    "0101",  'i',  52,    1,   0,   0,   0,  0,   0}  // CABIN PRESSURE ALTITUDE
-	  ,{"HDG",    "0751",  'i',  52,    0,   0,   0,   0,  0,   0}	// COMPASS HEADING
+	  ,{"HDG",    "0751",  'i',  52,    0,   0,   0,   0,  0,   0}	// COMPASS HEADING */
     }; 
   const byte VARIABLENANZAHL = sizeof(datenfeld)/sizeof(datenfeld[0]); 
