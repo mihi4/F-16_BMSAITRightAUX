@@ -4,7 +4,7 @@
 
 //MODULE SELECTION - uncomment the modules you want to use.
    
-  //#define LED               //drive LEDs
+  #define LED               //drive LEDs
   //#define LEDMatrix         //drive LED Matrix using a MAX7219 controller
   //#define LCD               //drive LCD display
   //#define SSegMAX7219       //drive 7-Segment displays via MAX7219 controller
@@ -74,6 +74,7 @@
 	  // Servos
 	  ,{"HydA",   "0281",  'i',  40,    0,   0,   0,   0,  0,   0}	// HYD PRESSURE A
 	  ,{"HydB",   "0291",  'i',  40,    1,   0,   0,   0,  0,   0}	// HYD PRESSURE A
+	  ,{"Gen",   "1245",  'b',  10,    13,   0,   0,   0,  0,   0}	// HYD PRESSURE A
      /* ,{"FWDFL",    "0531",  'i',  40,    2,   0,   0,   0,  0,   0}   // FUEL QTY FWD
 	  ,{"AFTFL",    "0481",  'i',  40,    3,   0,   0,   0,  0,   0}	// FUEL QTY AFT
 	  // AX1201728SG x27 steppers
