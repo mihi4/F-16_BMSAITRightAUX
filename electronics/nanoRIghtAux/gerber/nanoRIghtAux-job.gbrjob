@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.5-7.0.5~ubuntu20.04.1"
     },
-    "CreationDate": "2023-06-15T16:25:07+02:00"
+    "CreationDate": "2023-06-15T19:12:28+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 85.19,
-      "Y": 68.68
+      "X": 87.73,
+      "Y": 71.22
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,8 +34,8 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "nanoRIghtAux-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "nanoRIghtAux-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     }
   ],
