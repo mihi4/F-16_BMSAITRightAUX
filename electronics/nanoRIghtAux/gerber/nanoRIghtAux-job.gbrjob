@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.5-7.0.5~ubuntu20.04.1"
     },
-    "CreationDate": "2023-06-15T15:54:27+02:00"
+    "CreationDate": "2023-06-15T16:25:07+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 87.73,
-      "Y": 71.22
+      "X": 85.19,
+      "Y": 68.68
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,15 +27,15 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.8,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "nanoRIghtAux-F_Cu.gbr",
-      "FileFunction": "Copper,L1,Top",
+      "Path": "nanoRIghtAux-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     }
   ],
@@ -50,24 +50,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
