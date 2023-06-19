@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.5-7.0.5~ubuntu20.04.1"
     },
-    "CreationDate": "2023-06-19T09:48:11+02:00"
+    "CreationDate": "2023-06-19T10:08:05+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,8 +34,8 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "nanoRIghtAux-Edge_Cuts.gbr",
-      "FileFunction": "Profile",
+      "Path": "nanoRIghtAux-User_Drawings.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],

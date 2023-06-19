@@ -53,7 +53,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x0000000_fffffffe)
+      (layerselection 0x0000000_7fffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -1604,8 +1604,6 @@
     )
   )
 
-  (gr_circle (center 200.66 68.58) (end 206.86 68.58)
-    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp 28036720-f993-44c9-8efb-f9b4b46273df))
   (gr_rect (start 135.89 60.96) (end 220.98 129.54)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp a02cbc71-2a75-48ca-9d67-995a0d69f27f))
   (gr_text "Mot D" (at 213.36 118.11) (layer "F.Cu") (tstamp 08c833de-96d0-4072-b4b0-d08767238d62)
