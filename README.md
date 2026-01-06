@@ -1,3 +1,6 @@
+# !!! ATTENTION !!!!
+## I don't use BMSAIT anymore, so this repository is quite outdated and never got into my sim as it is
+
 # BMSAIT Right Aux Controller
 * Microcontroller: Arduino Nano
 
@@ -42,3 +45,4 @@ All the files are free to use under the GNUGPLv3
 
 If you find those files useful and would like to support me with an icecream, coffee or pizza, you can use paypal.me to do so ;)  
 [Paypal.me](https://paypal.me/MichiHirczy)
+
